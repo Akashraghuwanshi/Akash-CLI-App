@@ -5,7 +5,7 @@ var score=0;
 function play(question,answer)
 {
     var useranswer=readlineSync.question(question);
-   if(useranswer.topUpperclass()==answer.topUpperclass()){
+   if(useranswer.topUpperClass()==answer.topUpperClass()){
     console.log("Right");
     score++;
     }
