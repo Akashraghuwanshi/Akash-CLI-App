@@ -26,7 +26,7 @@ var q3={
     question:"\n1.Which bike do I have?",
     answer:"bhopal"
 }
-var question=[q1,q1,q3];
+var question=[q1,q2,q3];
 for(var i=0;i<question.length;i++){
     play(question[i].question,question[i].answer)
     console.log("Your score is "+score);
