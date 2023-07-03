@@ -1,11 +1,11 @@
 var readlineSync=require('readline-sync');
 var username=readlineSync.question("May I know your name please?\n");
-console.log("Hi"+username+"Play a Quiz ");
+console.log("Hi "+username+" Play a Quiz ");
 var score=0;
 function play(question,answer)
 {
     var useranswer=readlineSync.question(question);
-   if(useranswer==answer){
+   if(useranswer.topUpperclass()==answer.topUpperclass()){
     console.log("Right");
     score++;
     }
@@ -15,15 +15,15 @@ function play(question,answer)
 
 }
 var q1={
-    question:"\n1.What is my last name?",
+    question:"\n1.What is my last name?\n",
     answer:"raghuwanshi"
 }
 var q2={
-    question:"\n1.Which is my favorite  city?",
+    question:"\n1.Which is my favorite  city?\n",
     answer:"bhopal"
 }
 var q3={
-    question:"\n1.Which bike do I have?",
+    question:"\n1.Which bike do I have?\n",
     answer:"bhopal"
 }
 var question=[q1,q2,q3];
