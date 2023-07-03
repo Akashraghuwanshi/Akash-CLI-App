@@ -24,7 +24,7 @@ var q2={
 }
 var q3={
     question:"\n1.Which bike do I have?\n",
-    answer:"bhopal"
+    answer:"pulsar"
 }
 var question=[q1,q2,q3];
 for(var i=0;i<question.length;i++){
